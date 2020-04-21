@@ -1,0 +1,36 @@
+{
+  "name": "learning-hub-website",
+  "version": "1.0.0",
+  "description": "![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/fahadkhanchughtai/learning-hub-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/fahadkhanchughtai/learning-hub-website/issues"
+  },
+  "homepage": "https://gitlab.com/fahadkhanchughtai/learning-hub-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^1.1.1",
+    "fizzy-ui-utils": "^2.0.7",
+    "get-size": "^2.0.3",
+    "jquery": "^3.5.0",
+    "lightbox": "^0.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
