@@ -10,7 +10,24 @@ video {
   max-width: 100%;
   height: auto;
 }
+/* brands section header */
+.brands-section-header h3 {
+  font-size: 36px;
+  color: #283d50;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  padding-top: 60px;
 
+}
+
+.brands-section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  color: #556877;
+  width: 50%;
+}
 
 
 
