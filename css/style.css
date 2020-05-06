@@ -6,6 +6,10 @@
 */
 
 /* Changing by Fahad Khan */
+/* 
+ */
+ /* 
+  */
 video {
   max-width: 100%;
   height: auto;
@@ -37,7 +41,25 @@ video {
   width: 50%;
 }
 
-
+.thumb {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid #3B9AFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumb img {
+  height: auto;
+  max-width: 100%;
+}
 
 
 
@@ -228,7 +250,7 @@ h6 {
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
 }
 
