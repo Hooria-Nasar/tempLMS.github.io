@@ -55,6 +55,14 @@ video {
   max-width: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+  .branddiv {
+    margin: 50px 100px 10px 100px;
+    padding: 50px 100px 10px 100px;
+
+  
+  }
+}
 
 
 /*--------------------------------------------------------------
