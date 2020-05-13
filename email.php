@@ -17,18 +17,18 @@ $dotenv->load();
 
 // Replace sender@example.com with your "From" address.
 // This address must be verified with Amazon SES.
-$sender = 'noreply@learninghub.pk';
-$senderName = 'Learning Hub Pvt. Ltd.';
+$sender = 'contact@learninghub.pk';
+$senderName = $_POST['name'];;
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
 $recipient = 'info@learninghub.pk';
 
 // Replace smtp_username with your Amazon SES SMTP user name.
-$usernameSmtp = getenv('usernameSmtp');
+$usernameSmtp = getenv('SMTP_USERNAME');
 
 // Replace smtp_password with your Amazon SES SMTP password.
-$passwordSmtp =  getenv('passwordSmtp');
+$passwordSmtp =  getenv('SMTP_PASSWORD');
 
 // Specify a configuration set. If you do not want to use a configuration
 // set, comment or remove the next line.
@@ -37,11 +37,11 @@ $passwordSmtp =  getenv('passwordSmtp');
 // If you're using Amazon SES in a region other than US West (Oregon),
 // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
 // endpoint in the appropriate region.
-$host = getenv('host');
-$port =  getenv('port');
+$host = getenv('SMTP_HOST');
+$port =  getenv('SMTP_PORT');
 
 // The subject line of the email
-$subject = 'Learning Hub-Contact Form';
+$subject = 'Contact';
 
  
 // contact form data
