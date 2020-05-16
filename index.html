@@ -31,6 +31,9 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- Google Recaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+
   <!-- =======================================================
     Theme Name: NewBiz
     Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
@@ -542,7 +545,7 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="https://formspree.io/xyynzlwd" method="post" id='myForm' role="form" class="contactForm">
+              <form action="email.php" method="post" id='myForm' role="form" class="contactForm">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -570,6 +573,9 @@
                     data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
+                <!-- recaptcha line 2 -->
+                <div class="g-recaptcha brochure__form__captcha"
+                  data-sitekey="6LfhKPgUAAAAADvzjclm-fvQC-coCOomurD9oBFz"></div>
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
               </form>
             </div>
